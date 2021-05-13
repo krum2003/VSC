@@ -892,6 +892,7 @@ button {
   height: 45px;
 }
 /** Comments END**/
+
 /** independent-task-Course **/
 .card-body-application {
   padding: 71px 52px 60px 67px;
@@ -992,7 +993,7 @@ button {
   padding: 0 2px 3px 2px;
   width: 15px;
 }
-.btn-2{
+.btn-send{
   width: 223px;
   height: 50px;
   border-radius: 15px !important;
@@ -1013,8 +1014,16 @@ button {
   margin-left: 0 !important;
  border-radius: 15px;
 }
-
+.border-add{
+  width: 17.9px;
+  height: 22px;
+  border:  1px solid #8de219;
+}
+#right-side {
+  margin-left: 81px;
+}
 /** ndependent-task-CourseEND **/
+
 /** Media query**/
 @media only screen and (max-width: 1885px) {
   .student-scrol-module {
@@ -1285,9 +1294,7 @@ button {
       padding-left: 25px;
       padding-right: 15px;
     }
-    .btn-top {
-      margin-top: 140px;
-    }
+  
     .card-mini {
       width: 180px;
     }
@@ -1298,6 +1305,9 @@ button {
     .edit-content .btn-edit {
       width: 223px;
   }
+  #right-side {
+    margin-left: 41px;
+}
   }
   @media only screen and (max-width: 1350px) {
     .student-scrol-module {
@@ -1309,6 +1319,9 @@ button {
     .edit-content .btn-edit {
       width: 180px;
   }
+  #right-side {
+    margin-left: 41px;
+}
   }
   @media only screen and (max-width: 1280px) {
     .text-priem-sm {
@@ -1322,6 +1335,9 @@ button {
     .edit-content .btn-edit {
       width: 180px;
   }
+  #right-side {
+    margin-left: 41px;
+}
   }
   @media only screen and (max-width: 992px) {
     .text-xxl {
@@ -1359,80 +1375,7 @@ button {
       box-shadow: none !important;
       outline: none !important;
     }
-    .btn-edit {
-      min-width: auto;
-    }
-    #tab_selector {
-      background-color: transparent;
-      width: auto;
-      box-shadow: none !important;
-    }
-    #tab_selector ~ img {
-      height: 13px;
-      top: 4px;
-      right: -5px;
-      transform: rotate(-90deg);
-    }
-    .lectures {
-      max-height: auto;
-      margin-right: 0;
-      padding-right: 0;
-      overflow-y: inherit;
-    }
-    .accordion-button,
-    .accordion-button:focus,
-    .accordion-item:last-of-type .accordion-collapse {
-      font-size: 17px;
-    }
-    .accordion-button .time {
-      font-weight: normal;
-    }
-    #right-side .tab-pane {
-      height: 0;
-    }
-    #right-side .tab-pane.active {
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: 999;
-      padding: 10px;
-      height: 100vh;
-      background-color: #4b6280;
-      overflow-y: scroll;
-    }
-    #right-side .tab-pane .tab-body {
-      max-width: 600px;
-      padding: 30px 20px;
-      margin: 30px auto;
-      background-color: #eaf1fa;
-      border-radius: 15px;
-    }
-    #right-side .tab-pane .tab-body .close {
-      font-size: 28px;
-      font-weight: bold;
-      top: 10px;
-      right: 20px;
-      cursor: pointer;
-    }
-    .calendar input {
-      width: 100%;
-    }
-    .video-upload {
-      /**border-radius: 11px;**/
-      max-height: 375px;
-    }
-    .video-upload-btn {
-      top: 28%;
-      font-size: 14px;
-      color: #8de219;
-      line-height: 11px;
-      text-transform: capitalize;
-    }
-    .video-upload img {
-      height: 33px;
-    }
+
     .btn-add {
       border-radius: 15px;
       width: 50px;
@@ -1514,80 +1457,7 @@ button {
       height: 115px;
       margin-top: 161px;
     }
-    .data1 {
-      font-size: 14px;
-      color: #000;
-    }
-    .titel-code {
-      font-size: 17px;
-      color: #000;
-    }
-    .btn-code-card {
-      width: 107px;
-      height: 40px;
-      background-color: #000000;
-      color: #ffffff;
-    }
-    .activ-input {
-      background-color: #f6f9ff;
-      border: none;
-    }
-    /**Homework for Lecture**/
-    .main {
-      padding: 0 12px;
-    }
-    .main .hw-section-header i {
-      font-size: 21px;
-      margin-bottom: 10px;
-    }
-    .main .hw-section-header img {
-      height: 28px;
-    }
-    .main .text-large {
-      color: #778aa4;
-    }
-    .table-grid .row + .row {
-      padding: 37px 0 35px 0;
-      border-top: solid 1px #00214b;
-    }
-    /**Course as teacher**/
-    .home-work-1 {
-      margin-left: -20px;
-      margin-right: -20px;
-      margin-bottom: -60px;
-    }
-    .deadline-2 {
-      font-size: 26px;
-    }
-    .enddata {
-      font-size: 26px;
-    }
-    .bell-size {
-      width: 85px;
-      height: 93px;
-      margin-left: 25px;
-    }
-    .text-normal {
-      font-size: 28px;
-    }
-    .enddata1 {
-      font-size: 14px;
-    }
-    .text-l1 {
-      font-size: 20px;
-    }
-    .btn-view-1 {
-      margin-bottom: -75px;
-      height: 70px;
-      position: absolute;
-      left: 0;
-      right: 0;
-      width: 100%;
-    }
-    .see-all {
-      font-size: 21px;
-    }
-    /**End course as teacher**/
+    
   }
   @media only screen and (max-width: 992px) {
     .Attach_a_file{
@@ -1599,13 +1469,14 @@ button {
     .Attach_a_file .border {
       border-color: #69b501 ;
     }
-    .border{
-      
+    .border-add{
+     border:  1px solid #69b501;
       width: 17.9px;
       height: 22px;
+      
        
     }
-    .btn-2{
+    .btn-send{
       width: 50px;    
       height: 50px;
       border-radius: 15px !important;
@@ -1629,4 +1500,7 @@ button {
     }
    
   }
+
 }
+/** end Media query**/
+
