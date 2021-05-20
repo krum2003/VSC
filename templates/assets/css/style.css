@@ -928,7 +928,7 @@ button {
   -webkit-backdrop-filter: blur(8px);
   background: rgb(254, 254, 254);
 }
-.Samostoqtelna_zadacha {
+.img-card{
   margin-top: 60px;
   margin-left: 30px;
 }
@@ -1134,7 +1134,7 @@ button {
   .card-body-application {
     padding: 71px 52px 60px 58px;
   }
-  .Samostoqtelna_zadacha {
+  .img-card {
     width: 160px;
     margin-left: 20px;
   }
@@ -1224,7 +1224,7 @@ button {
   .text-priem-xl {
     font-size: 20px;
   }
-  .Samostoqtelna_zadacha {
+  .img-card{
     width: 150px;
   }
   .edit-content .btn-edit {
@@ -1298,7 +1298,7 @@ button {
     .card-mini {
       width: 180px;
     }
-    .Samostoqtelna_zadacha{
+    .img-card{
       width: 130px;
       margin-left: 25px;
     }
@@ -1504,3 +1504,29 @@ button {
 }
 /** end Media query**/
 
+/** Course-candidate-inteview**/
+.card-small-interviu{
+  border: none;
+  border-radius: 4px;
+  width: 7px;
+  height: 322px;
+  background: rgb(105,181,1);
+  background: linear-gradient(180deg, rgba(105,181,1,1) 0%, rgba(141,226,25,1) 67%, rgba(204,204,204,1) 60%);
+}
+.interviu-avatar-img {
+  margin-top:  210px;
+  margin-left: -22px;
+}
+/** Course-candidate-inteview END **/
+
+@media only screen and (max-width: 1460px) {
+  .card-small-interviu{
+    height: 244px;
+  }
+  .interviu-avatar-img {
+    margin-top: 150px;
+    margin-left: -22px;
+  }
+ 
+}
+/** end Media query**/
