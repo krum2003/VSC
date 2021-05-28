@@ -1019,9 +1019,7 @@ button {
   height: 22px;
   border:  1px solid #8de219;
 }
-#right-side {
-  margin-left: 81px;
-}
+
 /** ndependent-task-CourseEND **/
 
 /** Media query**/
@@ -1070,6 +1068,9 @@ button {
   }
   .edit-content .btn-edit {
     width: 223px;
+}
+#right-side {
+  margin-left: 50px;
 }
 }
 @media only screen and (max-width: 1735px) {
@@ -1152,6 +1153,7 @@ button {
   .edit-content .btn-edit {
     width: 223px;
 }
+
 }
 @media only screen and (max-width: 1546px) {
   .calendar input {
@@ -1245,6 +1247,7 @@ button {
     margin-top: 95px;
     margin-left: -22px;
   }
+  
   @media only screen and (max-width: 1400px) and (min-width: 992px) {
     .card {
       width: 500px;
@@ -1306,7 +1309,7 @@ button {
       width: 223px;
   }
   #right-side {
-    margin-left: 41px;
+    margin-left: 50px;
 }
   }
   @media only screen and (max-width: 1350px) {
@@ -1498,6 +1501,16 @@ button {
       width: 50px;
     height: 50px;
     }
+    .btn-add-candidates{
+      width: 45px;
+     height: 45px;
+    }
+    .line-add-candidates{
+      width: 90%;
+      display: block;
+      margin-left: auto;
+      margin-right:auto ;
+    }
    
   }
 
@@ -1528,5 +1541,186 @@ button {
     margin-left: -22px;
   }
  
+}
+/** end Media query**/
+
+/** Application form-admission-admin **/
+.card-small-form-admission-admin{
+  border: none;
+  border-radius: 4px;
+  width: 7px;
+  height: 300px;
+  background: rgb(105,181,1);
+background: linear-gradient(180deg, rgba(105,181,1,1) 0%, rgba(141,226,25,1) 26%);
+}
+.form-admission-admin-img {
+  margin-top:  260px;
+  margin-left: -22px;
+}
+.form-admission-checkbox + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+.form-admission-checkbox{
+  display: none;
+}
+
+.form-admission-checkbox + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+}
+
+.form-admission-checkbox + label:active:before {
+  transform: scale(0);
+}
+
+.form-admission-checkbox:checked + label:before {
+  background-color: #00214b;
+  border-color: #00214b;
+  color: #69b501;
+}
+.right-line {
+  border-right-style: solid;
+  border-right-color: #00214b;
+  height: 38px;
+
+}
+.btn-form-admission-send{
+  width: 140px;
+  height: 45px;
+  margin: 1px 0 1px 87px;
+  padding: 9.6px 15.6px 12.4px 17px;
+  border-radius: 15px;
+  background-color: #00214b;
+  color: #ffffff;
+  margin-left: -10px !important;
+}
+/* scrollbar */
+div.scrollbar-candidates {
+  width: 100%;
+  max-height: 708px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00214b;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00214b; 
+}
+
+
+/** Application form-admission-adminEND **/
+
+@media only screen and (max-width: 1653px) {
+  .student-scrol-module {
+    width: 550px;
+    height: 420px;
+    overflow: scroll;
+  }
+  .student-name-modul {
+    font-size: 22px;
+  }
+  .btn-form-admission-send{
+    width: 50px;
+    height: 40px;
+    border-radius: 15px !important;
+    background-color: #00214b;
+    color: #ffffff;
+    height: 50px;
+    z-index:0;
+    margin-left: -10px !important;
+    margin-left: 100px;
+  }
+  .btn-form-admission{
+    display: none;
+  }
+  .right-line {
+    border-right-style: solid;
+    border-right-color: #00214b;
+    height: 38px;
+  }
+  .card-small-form-admission-admin{
+    border: none;
+    border-radius: 4px;
+    width: 7px;
+    height: 240px;
+    background: rgb(105,181,1);
+  background: linear-gradient(180deg, rgba(105,181,1,1) 0%, rgba(141,226,25,1) 26%);
+  }
+  .form-admission-admin-img {
+    margin-top:  210px;
+    margin-left: -22px;
+  }
+}
+@media only screen and (max-width: 1546px){
+  .card-small-form-admission-admin{
+    border: none;
+    border-radius: 4px;
+    width: 7px;
+    height: 200px;
+    background: rgb(105,181,1);
+  background: linear-gradient(180deg, rgba(105,181,1,1) 0%, rgba(141,226,25,1) 26%);
+  }
+  .form-admission-admin-img {
+    margin-top:  190px;
+    margin-left: -22px;
+  }
+}
+@media only screen and (max-width: 1460px) {
+  .card-small-form-admission-admin{
+    height: 200px;
+  }
+  .form-admission-admin-img {
+    margin-top: 190px;
+    margin-left: -22px;
+  }
+  .right-line {
+    border-right-style: solid;
+    border-right-color: #00214b;
+    height: 38px;
+    margin: 4.5px 0;
+  }
+  .btn-form-admission-send{
+    width: 50px;
+    height: 40px;
+    border-radius: 15px !important;
+    background-color: #00214b;
+    color: #ffffff;
+    height: 50px;
+    z-index:0;
+    margin-left: -10px !important;
+  }
+  .btn-form-admission{
+    display: none;
+  } 
 }
 /** end Media query**/
