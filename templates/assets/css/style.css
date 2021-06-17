@@ -1342,6 +1342,10 @@ button {
   #right-side {
     margin-left: 41px;
 }
+.edit-content-admin{
+  margin-left: 20px;
+  padding-right: 0px; 
+}
   }
   @media only screen and (max-width: 992px) {
     .text-xxl {
@@ -1764,6 +1768,10 @@ div.scrollbar-candidates {
     height: 45px;
     margin-left: 50%;
   }
+  .btn-ceate-curse{
+    margin-left: 10%;
+    margin-right: 3%;
+  }
  
 }
 /** end-Course-candidates-interview-admin**/
@@ -1773,7 +1781,7 @@ div.scrollbar-candidates {
   min-width: 40%;
   height: 200px;
   margin-right: 5%;
-  margin-bottom: 0;
+  margin-bottom: 25px;
   background-color: rgba(119, 138, 164, 0.12);
   box-shadow: none;
   padding: 14.9px 12.3px 13px 19.3px;
@@ -1811,4 +1819,85 @@ height: 8px;
   height: 40px;
   padding: 10px 15px;
 }
+.edit-content-admin{
+  margin-left: 4%;
+}
+.search {
+  width: 490px;
+  margin-bottom: auto;
+  height: 50px;
+  border: solid 1px #00214b  ;
+  padding: 10px;
+  border-radius: 20px
+}
+
+.search-input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-top: 5px;
+  caret-color: transparent;
+  line-height: 20px;
+  transition: width 0.4s linear
+}
+
+.search .search-input {
+  padding: 0 10px;
+  width: 100%;
+  caret-color: #000000;
+  font-size: 19px;
+  font-weight: 300;
+  transition: width 0.4s linear
+}
+
+.search-icon {
+  height: 34px;
+  width: 34px;
+  float: right;
+  color: #999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  bottom: 31px;
+  position: relative;
+  border-radius: 5px
+}
+
+a:link {
+  text-decoration: none
+}
+.btn-ceate-curse{
+  margin-left: 20%;
+}
 /* end-Corse-admin-2 */
+@media only screen and (max-width: 1460px){
+  .btn-ceate-curse{
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+ 
+}
+@media only screen and (max-width: 1280px) {
+  .edit-content-admin{
+    margin-left: 20px;
+    padding-right: 0px; 
+  }
+  .admin-text-2{
+    margin-left: 20px;
+  }
+  .search {
+    width: 300px;
+    margin-bottom: auto;
+    height: 50px;
+    border: solid 1px #00214b  ;
+    padding: 10px;
+    border-radius: 20px
+  }
+  .btn-ceate-curse{
+    margin-left: 10%;
+    margin-right: 3%;
+  }
+}
