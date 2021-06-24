@@ -1761,7 +1761,9 @@ div.scrollbar-candidates {
   transform: rotate(90deg);
   margin-top: 15px; 
 }
+/** end-Course-candidates-interview-admin**/
 
+/**Media query**/
 @media only screen and (max-width: 1460px){
   .candidates-interview-admin-btn{
     width: 45px;
@@ -1774,7 +1776,8 @@ div.scrollbar-candidates {
   }
  
 }
-/** end-Course-candidates-interview-admin**/
+/**end-Media query**/
+
 
 /* Corse-admin-2 */
 .course-admin{
@@ -1832,7 +1835,7 @@ height: 8px;
 }
 
 .search-input {
-  color: white;
+  color: black;
   border: 0;
   outline: 0;
   background: none;
@@ -1873,6 +1876,7 @@ a:link {
   margin-left: 20%;
 }
 /* end-Corse-admin-2 */
+/**Media query**/
 @media only screen and (max-width: 1460px){
   .btn-ceate-curse{
     margin-left: 0%;
@@ -1901,3 +1905,4 @@ a:link {
     margin-right: 3%;
   }
 }
+/**Media query**/
