@@ -1551,9 +1551,19 @@ button {
 .view-course-btn{
   height: 35px;
 }
-.btn-admin-2 {
-  height: 40px;
-  padding: 10px 15px;
+.btn-admin-2-mobile {
+  width: 145px;
+  height: 35px;
+  margin-left: auto;
+  border-radius: 12px;
+}
+#kursove{
+  margin-right: auto;
+}
+.btn-start-test{
+  width: 302px;
+  min-width: auto;
+  height: 50px;
 }
   }
 
